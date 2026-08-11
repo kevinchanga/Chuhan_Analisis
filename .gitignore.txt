@@ -1,0 +1,6 @@
+# Carpetas de PyInstaller y entorno
+/build
+/dist
+*.spec
+__pycache__/
+.venv/
