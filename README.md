@@ -28,7 +28,7 @@ A través de la librería `lcu-driver`, la aplicación se conecta localmente al 
 ### 2. Monitoreo en Partida Activa (Live Client Data API)
 Una vez iniciada la partida, un hilo secundario (`threading`) consulta en un bucle ligero a la API local de Riot (`https://127.0.0.1:2999/liveclientdata/`):
 * **`/gamestats`**: Extrae el tiempo transcurrido de la partida para calcular contadores de objetivos y ritmo del juego.
-* **`/playerlist`**: Captura los puntajes de súbditos (CS), hechizos de invocador (para detectar automáticamente si juegas Jungla mediante el *Smite*) y la estructura de equipos.
+* **`/playerlist`**: Captura los puntajes de súbditos (CS), hechizos de invocador (para detectar automáticamente si juegas Jungla mediante el *Smite*) y la estructura de equipos
 * **`/activeplayer`**: Obtiene el oro actual acumulado y estadísticas del jugador.
 
 ### 3. Procesamiento y Asignación de Contenido
